@@ -46,12 +46,12 @@ your name. These values are retrieved by the system, if not provided. If you
 try to use git without this main configuration, it will ask you to configure
 it like this:
 
-> Your name and email address were configured automatically based
-> on your username and hostname. Please check that they are accurate.
-> You can suppress this message by setting them explicitly:
+>    Your name and email address were configured automatically based
+>    on your username and hostname. Please check that they are accurate.
+>    You can suppress this message by setting them explicitly:
 >
->     git config --global user.name "Your Name"
->     git config --global user.email you@example.com
+>      git config --global user.name "Your Name"
+>      git config --global user.email you@example.com
 
 So, let's do this:
 
