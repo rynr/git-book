@@ -55,8 +55,8 @@ it like this:
 
 So, let's do this:
 
-> user:~$ git config --global user.name "Rainer Jung"
-> user:~$ git config --global user.email "Rainer.Jung@gmail.com"
+    user:~$ git config --global user.name "Rainer Jung"
+    user:~$ git config --global user.email "Rainer.Jung@gmail.com"
 
 The configuration is now stored in `~/.gitconfig`. If you omit `--global`, the
 configuration will be stored in the with the current repository at
@@ -65,14 +65,16 @@ at `/etc/gitconfig`.
 
 The configuration now looks like this:
 
-> [user]
->         name = Rainer Jung
->         email = Rainer.Jung@gmail.com
+    [user]
+            name = Rainer Jung
+            email = Rainer.Jung@gmail.com
 
 Editor
 ------
 
-For some interaction, git will invoke a editor (for example to get a comment of your changes). By default the environment-variable EDITOR will be used. You can overwrite this by setting core.editor (globally, or per repository).
+For some interaction, git will invoke a editor (for example to get a comment
+of your changes). By default the environment-variable `EDITOR` will be used.
+You can overwrite this by setting core.editor (globally, or per repository).
 
 Further configurations
 ----------------------
@@ -93,4 +95,4 @@ There's a command available by git called with `__git_ps1`. Here's a example
 to put in your `.bashrc`, the name of the current branch will be included in
 the prompt.
 
-> export PS1='\u@\h:\w$(__git_ps1 "(%s)")\$ '
+    export PS1='\u@\h:\w$(__git_ps1 "(%s)")\$ '
