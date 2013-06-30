@@ -217,15 +217,15 @@ More Informations?
 
 Though, you can get all information via the command-line, to get a real overview (especially, when you start branching, it's a good idea to use a visualization of the whole repository. Here are some screen shots, how they look.
 
-gitk
+###gitk
 
 ![gitk](sources/screenshot-gitk.png)
 
-gitg
+###gitg
 
 ![gitkg](sources/screenshot-gitg.png)
 
-qgit
+###qgit
 
 ![qgit](sources/screenshot-qgit.png)
 
