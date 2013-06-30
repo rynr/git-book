@@ -48,7 +48,7 @@ in your *workspace*. Then you put it to the index, and finally it's stored to
 the *repository*. We just moved the new file `index.php` from workspace to
 index and then to the repository:
 
-![First Step](sources/overview1.svg)
+![First Step](sources/overview1.png)
 
 But there are some differences between these two commands. I had different
 arguments for them. The first command `git add index.php` told git, which
@@ -87,7 +87,7 @@ rm instead of add.
 To remove a file, you first have to stage the removal on the index, and then
 commit it to the repository. So the complete workflow now looks like this:
 
-![Second Step](sources/overview2.svg)
+![Second Step](sources/overview2.png)
 
 What's the status?
 ------------------
@@ -123,7 +123,7 @@ As you see, git already tries to help you, how to deal with the changes by
 giving you the examples, how to move the changes between workspace, index and
 repository. Here are two further commands shown, `checkout` and `reset HEAD`.
 
-![Third Step](sources/overview3.svg)
+![Third Step](sources/overview3.png)
 
 What happend so far?
 --------------------
