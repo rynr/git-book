@@ -219,15 +219,15 @@ Though, you can get all information via the command-line, to get a real overview
 
 gitk
 
-!(sources/screenshot-gitk.png)
+![gitk](sources/screenshot-gitk.png)
 
 gitg
 
-!(sources/screenshot-gitg.png)
+![gitkg](sources/screenshot-gitg.png)
 
 qgit
 
-!(sources/screenshot-qgit.png)
+![qgit](sources/screenshot-qgit.png)
 
 Gotchas
 =======
