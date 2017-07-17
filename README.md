@@ -12,3 +12,8 @@ Chapters
 
  - [Git](git1.md)
  - [Simple Usage](git2.md)
+
+Download
+--------
+
+ - [git.epub](git.epub)
